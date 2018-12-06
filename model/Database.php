@@ -6,12 +6,11 @@
 
  */
 class Database {
-private static $dbName = 'productos' ;
+private static $dbName = 'dasm34v5kl4a32' ;
     private static $dbHost = 'ec2-54-83-27-162.compute-1.amazonaws.com' ;
-    private static $dbUsername = 'postgres';
-    private static $dbUserPassword = 'Adriana28';
+    private static $dbUsername = 'lsptqjibweuiww';
+    private static $dbUserPassword = 'b1f0ea7284b9521cb22d07b149a5ea1ce10ede7953bbce88d2534b7224e2462c';
     private static $dbPort = '5432';
-
     private static $conexion  = null;
 
     public function __construct() {
