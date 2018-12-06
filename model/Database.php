@@ -7,7 +7,7 @@
  */
 class Database {
 private static $dbName = 'productos' ;
-    private static $dbHost = 'localhost' ;
+    private static $dbHost = 'ec2-54-83-27-162.compute-1.amazonaws.com' ;
     private static $dbUsername = 'postgres';
     private static $dbUserPassword = 'Adriana28';
     private static $dbPort = '5432';
