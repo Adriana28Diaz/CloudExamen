@@ -6,7 +6,7 @@ session_start();
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Facturación - productos</title>
+        <title>Productos</title>
         <script src="js/jquery-2.1.4.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/bootstrap-table.js"></script>
@@ -15,7 +15,7 @@ session_start();
     </head>
     <body>
         <div class="container">
-            <img src="images/banner-facturacion.jpg">
+            <img src="images/Banner1.png">
             <div class="row">
                 <h3>Productos</h3>
             </div>
@@ -25,7 +25,7 @@ session_start();
             <p>
                 <form action="../controller/controller.php">
                     <input type="hidden" name="opcion" value="crear_producto">
-                    Código producto:<input type="number" name="codigo"  required="true">
+                    Código producto:<input type="number" name="codigo"  required="true"> 
                     Descripcion del producto:<input type="text" name="descripcion" maxlength="100" required="true">
                     Cantidad:<input type="decimal" name="cantidad"  required="true">
                     Precio:<input type="decimal" name="precio" required="true">
@@ -39,7 +39,7 @@ session_start();
                         <th>DESCRIPCION</th>
                         <th>CANTIDAD</th>
                         <th>PRECIO</th>
-                        <th>OPCIONES</th>
+                        <th>ACTUALIZAR</th>
                     </tr>
                 </thead>
                 <tbody>

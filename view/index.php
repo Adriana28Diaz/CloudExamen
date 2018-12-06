@@ -14,7 +14,7 @@ session_start();
     </head>
     <body>
         <div class="container">
-            <img src="images/banner-facturacion.jpg">
+            <img src="images/banner.jpg">
             <div class="row">
                 <h3>Lista Productos</h3>
             </div>

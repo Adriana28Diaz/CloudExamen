@@ -9,7 +9,7 @@ class Database {
 private static $dbName = 'productos' ;
     private static $dbHost = 'localhost' ;
     private static $dbUsername = 'postgres';
-    private static $dbUserPassword = '2020';
+    private static $dbUserPassword = 'Adriana28';
     private static $dbPort = '5432';
 
     private static $conexion  = null;
